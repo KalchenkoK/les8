@@ -8,6 +8,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "browser-sync": "^2.26.14",
     "gulp-cli": "^2.3.0"
   },
   "devDependencies": {

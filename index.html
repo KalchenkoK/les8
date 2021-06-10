@@ -1,288 +1,446 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=2, user-scalable=false">
+    <meta charset="UTF-8">   
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Responsive</title>
     <link rel="stylesheet" type="text/css" href="assets/styles/main.css">
 </head>
+
 <body>
-<div class="wrapper">
-    <div class="menu">
-        <div class="menu__wrapper">
-            <img src="assets/icons/logo.svg" class="logo">
-            <div class="menu__navigation">
-                <ul>
-                    <li>
-                        <img src="assets/icons/add.svg">
-                        <span>Discover</span>
-                    </li>
-                    <li>
-                        <img src="assets/icons/add.svg">
-                        <span>Discover</span>
-                    </li>
-                    <li>
-                        <img src="assets/icons/add.svg">
-                        <span>Discover</span>
-                    </li>
-                    <li>
-                        <img src="assets/icons/add.svg">
-                        <span>Discover</span>
-                    </li>
-                    <li>
-                        <img src="assets/icons/add.svg">
-                        <span>Discover</span>
-                    </li>
-                </ul>
-                <h3>My Tracks</h3>
-                <ul>
-                    <li>
-                        <img src="assets/icons/add.svg">
-                        <span>Discover</span>
-                    </li>
-                    <li>
-                        <img src="assets/icons/add.svg">
-                        <span>Discover</span>
-                    </li>
-                    <li>
-                        <img src="assets/icons/add.svg">
-                        <span>Discover</span>
-                    </li>
-                    <li>
-                        <img src="assets/icons/add.svg">
-                        <span>Discover</span>
-                    </li>
-                </ul>
-                <h3>My Tracks</h3>
-                <ul>
-                    <li>
-                        <img src="assets/icons/add.svg">
-                        <span>Discover</span>
-                    </li>
-                    <li>
-                        <img src="assets/icons/add.svg">
-                        <span>Discover</span>
-                    </li>
-                    <li>
-                        <img src="assets/icons/add.svg">
-                        <span>Discover</span>
-                    </li>
-                    <li>
-                        <img src="assets/icons/add.svg">
-                        <span>Discover</span>
-                    </li>
-                </ul>
+    <div class="wrapper">
+        <div class="menu">
+            <div class="menu__wrapper">
+                <img src="assets/icons/logo.svg" class="logo">
+                <div class="menu__navigation">
+                    <ul>
+                        <li>
+                            <img src="assets/icons/discover.svg">
+                            <span>Discover</span>
+                        </li>
+                        <li>
+                            <img src="assets/icons/songs.svg">
+                            <span>Songs</span>
+                        </li>
+                        <li>
+                            <img src="assets/icons/albums.svg">
+                            <span>Albums</span>
+                        </li>
+                        <li>
+                            <img src="assets/icons/artists.svg">
+                            <span>Artists</span>
+                        </li>
+                        <li>
+                            <img src="assets/icons/you-yube.svg">
+                            <span>YouTube</span>
+                        </li>
+                    </ul>
+                    <h3>My Tracks</h3>
+                    <ul>
+                        <li>
+                            <img src="assets/icons/favourite.svg">
+                            <span>Favourite</span>
+                        </li>
+                        <li>
+                            <img src="assets/icons/history.svg">
+                            <span>Recent History</span>
+                        </li>
+                        <li>
+                            <img src="assets/icons/download.svg">
+                            <span>Download Items</span>
+                        </li>
+                        <li>
+                            <img src="assets/icons/local-files.svg">
+                            <span>Local Files</span>
+                        </li>
+                    </ul>
+                    <h3>My Tracks</h3>
+                    <ul>
+                        <li>
+                            <img src="assets/icons/add.svg">
+                            <span>Bangla</span>
+                        </li>
+                        <li>
+                            <img src="assets/icons/add.svg">
+                            <span>English</span>
+                        </li>
+                        <li>
+                            <img src="assets/icons/add.svg">
+                            <span>My Style</span>
+                        </li>
+                        <li>
+                            <img src="assets/icons/add.svg">
+                            <span>Hindi</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="menu__singer">
+                <img src="assets/img/singer.png" class="menu__singer_img">
+                <div class="menu__singer_track">
+                    <h3 class="menu__singer_name">Kamelia</h3>
+                    <p class="menu__singer_track-name">
+                        Akcent ft Lidia
+                        Buble&DDY Nunes
+                    </p>
+                </div>
+                <span class="menu__singer_more"></span>
             </div>
         </div>
-        <div class="menu__singer">
-            <img src="assets/img/singer.png" class="menu__singer_img">
-            <div class="menu__singer_track">
-                <h3 class="menu__singer_name">Kamelia</h3>
-                <p class="menu__singer_track-name">
-                    Akcent ft Lidia
-                    Buble&DDY Nunes
-                </p>
-            </div>
-            <span class="menu__singer_more"></span>
-        </div>
-    </div>
-    <main class="content">
-        <header class="header">
-            <input
-                    class="header__search"
-                    type="search"
-                    placeholder="Search your entertainment"
-            >
-            <div class="header__nav">
-                <button class="header__button tv"></button>
-                <button class="header__button radio"></button>
-                <button class="header__button bell"></button>
-                <div class="header__profile profile">
-                    <img class="profile__avatar">
-                    <div class="profile__name-wrapper">
-                        <p class="profile__name"></p>
-                        <p class="profile__status"></p>
+        <main class="content">
+            <header class="header">
+                <input class="header__search" type="search" placeholder="Search your entertainment">
+                <div class="header__nav">
+                    <button class="header__button tv"></button>
+                    <button class="header__button radio"></button>
+                    <button class="header__button bell"></button>
+                    <div class="header__profile profile">
+                        <img class="profile__avatar">
+                        <div class="profile__name-wrapper">
+                            <p class="profile__name"></p>
+                            <p class="profile__status"></p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="clear"></div>
-        </header>
-        <section>
-            <span>#ternding</span>
-            <h1>
-                Akcent feat Lidia
-                Buble & DDY Nunes
-            </h1>
-            <span>- Kamelia</span>
-            <div>
-                <button></button>
-                <button></button>
-            </div>
-            <div>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </section>
-        <section class="albums">
-            <h3>Featured tracks</h3>
-            <div class="albums__wrapper">
-                <div class="album">
-                    <div class="album__img"></div>
-                    <h5>Sucker</h5>
-                    <span>Jonas Brothers</span>
+                <div class="clear"></div>
+            </header>
+            <section class="slider">
+                <div class="slider__wrapper">
+                    <span class="slider__category">#ternding</span>
+                    <h1 class="slider__heading">
+                        Akcent feat Lidia<br />
+                        Buble & DDY Nunes
+                    </h1>
+                    <span class="slider__song">- Kamelia</span>
                 </div>
-                <div class="album">
-                    <div class="album__img"></div>
-                    <h5>Sucker</h5>
-                    <span>Jonas Brothers</span>
+                <div class="slider__buttons">
+                    <button class="slider__buttons_play">
+                        Play
+                    </button>
+                    <button class="slider__buttons_share">
+                        <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path opacity="0.5" fill-rule="evenodd" clip-rule="evenodd"
+                                d="M12.2471 12C11.4664 11.9991 10.7803 11.4096 10.5644 10.5541L4.06702 8.46197C3.34821 9.36392 2.18445 9.59494 1.24065 9.02302C0.296857 8.4511 -0.186485 7.22197 0.0667887 6.03791C0.320062 4.85385 1.24541 4.01657 2.31414 4.00444C2.91427 4.00359 3.49169 4.26602 3.92679 4.73737L7.89414 1.62576C8.05141 0.681892 8.77529 -0.000873401 9.6178 8.38595e-07C10.5859 8.38595e-07 11.3707 0.894934 11.3707 1.99889C11.3707 3.10285 10.5859 3.99778 9.6178 3.99778C9.29511 3.99778 9.03351 3.69947 9.03351 3.33148C9.03351 2.9635 9.29511 2.66519 9.6178 2.66519C9.92734 2.66063 10.18 2.38157 10.194 2.02891C10.2079 1.67626 9.9782 1.37243 9.67027 1.33617C9.36235 1.29992 9.08307 1.54382 9.03351 1.89228C8.97956 2.23432 8.80405 2.53573 8.54855 2.72515L4.13129 6.18323C3.99178 6.29207 3.81778 6.32668 3.6542 6.27813C3.49062 6.22957 3.3535 6.10262 3.27822 5.93004C2.99715 5.43371 2.46304 5.20769 1.96608 5.37477C1.46911 5.54186 1.12796 6.06214 1.12796 6.65297C1.12796 7.2438 1.46911 7.76409 1.96608 7.93117C2.46304 8.09825 2.99715 7.87223 3.27822 7.3759C3.40761 7.10118 3.68678 6.96553 3.95016 7.04942L10.8507 9.24153C11.2479 9.36919 11.5566 9.72629 11.6628 10.181C11.7466 10.5074 12.0325 10.7095 12.3261 10.6499C12.6197 10.5902 12.8268 10.2879 12.8066 9.9486C12.7863 9.60928 12.5451 9.34184 12.2471 9.32815C11.9244 9.32815 11.6628 9.02984 11.6628 8.66185C11.6628 8.29387 11.9244 7.99556 12.2471 7.99556C13.2152 7.99556 14 8.89049 14 9.99445C14 11.0984 13.2152 11.9933 12.2471 11.9933V12Z"
+                                fill="#0F1E36" />
+                        </svg>
+                    </button>
                 </div>
-                <div class="album">
-                    <div class="album__img"></div>
-                    <h5>Sucker</h5>
-                    <span>Jonas Brothers</span>
+                <div>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
                 </div>
-                <div class="album">
-                    <div class="album__img"></div>
-                    <h5>Sucker</h5>
-                    <span>Jonas Brothers</span>
+            </section>
+            <section class="albums">
+                <h3>Featured tracks</h3>
+                <div class="albums__wrapper">
+                    <div class="album">
+                        <div class="album__img"></div>
+                        <h5>Sucker</h5>
+                        <span>Jonas Brothers</span>
+                    </div>
+                    <div class="album">
+                        <div class="album__img"></div>
+                        <h5>Sucker</h5>
+                        <span>Jonas Brothers</span>
+                    </div>
+                    <div class="album">
+                        <div class="album__img"></div>
+                        <h5>Sucker</h5>
+                        <span>Jonas Brothers</span>
+                    </div>
+                    <div class="album">
+                        <div class="album__img"></div>
+                        <h5>Sucker</h5>
+                        <span>Jonas Brothers</span>
+                    </div>
+                    <div class="album">
+                        <div class="album__img"></div>
+                        <h5>Sucker</h5>
+                        <span>Jonas Brothers</span>
+                    </div>
+                    <div class="album">
+                        <div class="album__img"></div>
+                        <h5>Sucker</h5>
+                        <span>Jonas Brothers</span>
+                    </div>
+                    <div class="album">
+                        <div class="album__img"></div>
+                        <h5>Sucker</h5>
+                        <span>Jonas Brothers</span>
+                    </div>
+                    <div class="album">
+                        <div class="album__img"></div>
+                        <h5>Sucker</h5>
+                        <span>Jonas Brothers</span>
+                    </div>
+                    <div class="album">
+                        <div class="album__img"></div>
+                        <h5>Sucker</h5>
+                        <span>Jonas Brothers</span>
+                    </div>
+                    <div class="album">
+                        <div class="album__img"></div>
+                        <h5>Sucker</h5>
+                        <span>Jonas Brothers</span>
+                    </div>
+                    <div class="album">
+                        <div class="album__img"></div>
+                        <h5>Sucker</h5>
+                        <span>Jonas Brothers</span>
+                    </div>
+                    <div class="album">
+                        <div class="album__img"></div>
+                        <h5>Sucker</h5>
+                        <span>Jonas Brothers</span>
+                    </div>
+                    <div class="album">
+                        <div class="album__img"></div>
+                        <h5>Sucker</h5>
+                        <span>Jonas Brothers</span>
+                    </div>
+                    <div class="album">
+                        <div class="album__img"></div>
+                        <h5>Sucker</h5>
+                        <span>Jonas Brothers</span>
+                    </div>
+                    <div class="album">
+                        <div class="album__img"></div>
+                        <h5>Sucker</h5>
+                        <span>Jonas Brothers</span>
+                    </div>
+                    <div class="album">
+                        <div class="album__img"></div>
+                        <h5>Sucker</h5>
+                        <span>Jonas Brothers</span>
+                    </div>
+                    <div class="album">
+                        <div class="album__img"></div>
+                        <h5>Sucker</h5>
+                        <span>Jonas Brothers</span>
+                    </div>
+                    <div class="album">
+                        <div class="album__img"></div>
+                        <h5>Sucker</h5>
+                        <span>Jonas Brothers</span>
+                    </div>
+                    <div class="album">
+                        <div class="album__img"></div>
+                        <h5>Sucker</h5>
+                        <span>Jonas Brothers</span>
+                    </div>
+                    <div class="album">
+                        <div class="album__img"></div>
+                        <h5>Sucker</h5>
+                        <span>Jonas Brothers</span>
+                    </div>
+                    <div class="album">
+                        <div class="album__img"></div>
+                        <h5>Sucker</h5>
+                        <span>Jonas Brothers</span>
+                    </div>
+                    <div class="album">
+                        <div class="album__img"></div>
+                        <h5>Sucker</h5>
+                        <span>Jonas Brothers</span>
+                    </div>
                 </div>
-                <div class="album">
-                    <div class="album__img"></div>
-                    <h5>Sucker</h5>
-                    <span>Jonas Brothers</span>
+            </section>
+            <section class="tracks">
+                <h3>Top tracks</h3>
+                <div class="tracks__header">
+                    <div>#</div>
+                    <div></div>
+                    <div>Song</div>
+                    <div>Artist</div>
+                    <div>Daily Plays</div>
+                    <div>Time</div>
+                    <div>Option</div>
+                    <div></div>
+                    <div></div>
                 </div>
-                <div class="album">
-                    <div class="album__img"></div>
-                    <h5>Sucker</h5>
-                    <span>Jonas Brothers</span>
+                <div class="tracks__scroll">
+                    <div class="track">                       
+                        <div>
+                            <span>1</span>
+                            <img class="track__image_mobile" src="assets/img/singer.png" />
+                        </div>
+                        <div>
+                            <img src="assets/icons/favourite.svg">
+                        </div>
+                        <div class="track__singer_mobile">                            
+                            <div>Claydee feat</div>
+                        </div>
+                        <div>Claydee feat</div>
+                        <div>39,566</div>
+                        <div class="track__time_mobile">4:21</div>
+                        <div>
+                            <img src="assets/icons/download.svg">
+                        </div>
+                        <div>
+                            <img src="assets/icons/share.svg" />
+                        </div>
+                        <div>
+                            <img src="assets/icons/dots.svg">
+                        </div>
+                    </div>
+                    <div class="track">
+                        <div>
+                            <span>1</span>
+                            <img class="track__image_mobile" src="assets/img/singer.png" />
+                        </div>
+                        <div>
+                            <img src="assets/icons/favourite.svg">
+                        </div>
+                        <div class="track__singer_mobile">
+                            <div>Dame Dame</div>
+                            <div>Claydee feat</div>
+                        </div>
+                        <div>Claydee feat</div>
+                        <div>39,566</div>
+                        <div class="track__time_mobile">4:21</div>
+                        <div>
+                            <img src="assets/icons/download.svg">
+                        </div>
+                        <div>
+                            <img src="assets/icons/share.svg" />
+                        </div>
+                        <div>
+                            <img src="assets/icons/dots.svg">
+                        </div>
+                    </div>
+                    <div class="track">
+                        <div>
+                            <span>1</span>
+                            <img class="track__image_mobile" src="assets/img/singer.png" />
+                        </div>
+                        <div>
+                            <img src="assets/icons/favourite.svg">
+                        </div>
+                        <div class="track__singer_mobile">
+                            <div>Dame Dame</div>
+                            <div>Claydee feat</div>
+                        </div>
+                        <div>Claydee feat</div>
+                        <div>39,566</div>
+                        <div class="track__time_mobile">4:21</div>
+                        <div>
+                            <img src="assets/icons/download.svg">
+                        </div>
+                        <div>
+                            <img src="assets/icons/share.svg" />
+                        </div>
+                        <div>
+                            <img src="assets/icons/dots.svg">
+                        </div>
+                    </div>
+                    <div class="track">
+                        <div>
+                            <span>1</span>
+                            <img class="track__image_mobile" src="assets/img/singer.png" />
+                        </div>
+                        <div>
+                            <img src="assets/icons/favourite.svg">
+                        </div>
+                        <div class="track__singer_mobile">
+                            <div>Dame Dame</div>
+                            <div>Claydee feat</div>
+                        </div>
+                        <div>Claydee feat</div>
+                        <div>39,566</div>
+                        <div class="track__time_mobile">4:21</div>
+                        <div>
+                            <img src="assets/icons/download.svg">
+                        </div>
+                        <div>
+                            <img src="assets/icons/share.svg" />
+                        </div>
+                        <div>
+                            <img src="assets/icons/dots.svg">
+                        </div>
+                    </div>
+                    <div class="track">
+                        <div>
+                            <span>1</span>
+                            <img class="track__image_mobile" src="assets/img/singer.png" />
+                        </div>
+                        <div>
+                            <img src="assets/icons/favourite.svg">
+                        </div>
+                        <div class="track__singer_mobile">
+                            <div>Dame Dame</div>
+                            <div>Claydee feat</div>
+                        </div>
+                        <div>Claydee feat</div>
+                        <div>39,566</div>
+                        <div class="track__time_mobile">4:21</div>
+                        <div>
+                            <img src="assets/icons/download.svg">
+                        </div>
+                        <div>
+                            <img src="assets/icons/share.svg" />
+                        </div>
+                        <div>
+                            <img src="assets/icons/dots.svg">
+                        </div>
+                    </div>
+                    <div class="track">
+                        <div>
+                            <span>1</span>
+                            <img class="track__image_mobile" src="assets/img/singer.png" />
+                        </div>
+                        <div>
+                            <img src="assets/icons/favourite.svg">
+                        </div>
+                        <div>Dame Dame</div>
+                        <div class="track__singer_mobile">
+                            <div>Dame Dame</div>
+                            <div>Claydee feat</div>
+                        </div>
+                        <div>Claydee feat</div>
+                        <div>39,566</div>
+                        <div class="track__time_mobile">4:21</div>
+                        <div>
+                            <img src="assets/icons/download.svg">
+                        </div>
+                        <div>
+                            <img src="assets/icons/share.svg" />
+                        </div>
+                        <div>
+                            <img src="assets/icons/dots.svg">
+                        </div>
+                    </div>
+                    <div class="track">
+                        <div class="track__image_mobile">
+                            <span>1</span>
+                            <img src="assets/img/singer.png" />
+                        </div>
+                        <div>
+                            <img src="assets/icons/favourite.svg">
+                        </div>
+                        <div class="track__singer_mobile">
+                            <div>Dame Dame</div>
+                            <div>Claydee feat</div>
+                        </div>
+                        <div>Claydee feat</div>
+                        <div>39,566</div>                        
+                        <div class="track__time_mobile">4:21</div>
+                        <div>
+                            <img src="assets/icons/download.svg">
+                        </div>
+                        <div>
+                            <img src="assets/icons/share.svg" />
+                        </div>
+                        <div>
+                            <img src="assets/icons/dots.svg">
+                        </div>
+                    </div>
                 </div>
-                <div class="album">
-                    <div class="album__img"></div>
-                    <h5>Sucker</h5>
-                    <span>Jonas Brothers</span>
-                </div>
-                <div class="album">
-                    <div class="album__img"></div>
-                    <h5>Sucker</h5>
-                    <span>Jonas Brothers</span>
-                </div>
-                <div class="album">
-                    <div class="album__img"></div>
-                    <h5>Sucker</h5>
-                    <span>Jonas Brothers</span>
-                </div>
-                <div class="album">
-                    <div class="album__img"></div>
-                    <h5>Sucker</h5>
-                    <span>Jonas Brothers</span>
-                </div>
-                <div class="album">
-                    <div class="album__img"></div>
-                    <h5>Sucker</h5>
-                    <span>Jonas Brothers</span>
-                </div>
-                <div class="album">
-                    <div class="album__img"></div>
-                    <h5>Sucker</h5>
-                    <span>Jonas Brothers</span>
-                </div>
-                <div class="album">
-                    <div class="album__img"></div>
-                    <h5>Sucker</h5>
-                    <span>Jonas Brothers</span>
-                </div>
-                <div class="album">
-                    <div class="album__img"></div>
-                    <h5>Sucker</h5>
-                    <span>Jonas Brothers</span>
-                </div>
-                <div class="album">
-                    <div class="album__img"></div>
-                    <h5>Sucker</h5>
-                    <span>Jonas Brothers</span>
-                </div>
-                <div class="album">
-                    <div class="album__img"></div>
-                    <h5>Sucker</h5>
-                    <span>Jonas Brothers</span>
-                </div>
-                <div class="album">
-                    <div class="album__img"></div>
-                    <h5>Sucker</h5>
-                    <span>Jonas Brothers</span>
-                </div>
-                <div class="album">
-                    <div class="album__img"></div>
-                    <h5>Sucker</h5>
-                    <span>Jonas Brothers</span>
-                </div>
-                <div class="album">
-                    <div class="album__img"></div>
-                    <h5>Sucker</h5>
-                    <span>Jonas Brothers</span>
-                </div>
-                <div class="album">
-                    <div class="album__img"></div>
-                    <h5>Sucker</h5>
-                    <span>Jonas Brothers</span>
-                </div>
-                <div class="album">
-                    <div class="album__img"></div>
-                    <h5>Sucker</h5>
-                    <span>Jonas Brothers</span>
-                </div>
-                <div class="album">
-                    <div class="album__img"></div>
-                    <h5>Sucker</h5>
-                    <span>Jonas Brothers</span>
-                </div>
-            </div>
-        </section>
-        <section>
-            <h3>Top tracks</h3>
-            <table>
-                <tr>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                </tr>
-                <tr>
-                    <td>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                    </td>
-                </tr>
-            </table>
-            <table>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-            </table>
-        </section>
-    </main>
-</div>
+            </section>
+        </main>
+    </div>
 </body>
+
 </html>
