@@ -28,6 +28,8 @@ gulp.task("watch", function(done) {
     //gulp.watch("./src/pages/*.html").on('change', gulp.series('fileinclude'));
     gulp.watch('./index.html').on('change', browserSync.reload);
     gulp.watch('./assets/styles/content.css').on('change', browserSync.reload);
+    gulp.watch('./assets/styles/menu.css').on('change', browserSync.reload);
+    gulp.watch('./assets/styles/mobile.css').on('change', browserSync.reload);
 });
 
 gulp.task('default', gulp.series('watch'));

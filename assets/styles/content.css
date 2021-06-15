@@ -71,30 +71,42 @@
   height: 112px;
   background: no-repeat url("../img/album.png") center/cover;
 }
-.two{
-    background: no-repeat url("../img/MaskCopy.png") center/cover;
+.two {
+  background: no-repeat url("../img/MaskCopy.png") center/cover;
 }
-.three{
-    background: no-repeat url("../img/RectangleCopy.png") center/cover;
+.three {
+  background: no-repeat url("../img/RectangleCopy.png") center/cover;
 }
-.four{
-    background: no-repeat url("../img/RectangleCopy13.png") center/cover;
+.four {
+  background: no-repeat url("../img/RectangleCopy13.png") center/cover;
 }
-.five{
-    background: no-repeat url("../img/Mask.png") center/cover;
+.five {
+  background: no-repeat url("../img/Mask.png") center/cover;
 }
-.six{
-    background: no-repeat url("../img/RectangleCopy15.png") center/cover;
+.six {
+  background: no-repeat url("../img/RectangleCopy15.png") center/cover;
 }
-.seven{
-    background: no-repeat url("../img/MaskCopy.png") center/cover;
+.seven {
+  background: no-repeat url("../img/MaskCopy.png") center/cover;
 }
 .profile {
   display: inline-block;
   vertical-align: bottom;
   padding: 15px 110px 15px 22px;
 }
-
+.profile__name{
+  color: #000000;
+  font-size: 12px;
+  line-height: 16px;
+  font-style: semibold;
+}
+.profile__status{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 16px;
+  color: #3E2AD1;
+}
 .profile__name-wrapper {
   display: inline-block;
 }
@@ -149,8 +161,8 @@
   height: 5px;
   display: inline-block;
 }
-.el_two{
-    background-color: #3E2AD1;
+.el_two {
+  background-color: #3e2ad1;
 }
 .albums {
   padding: 24px 0 24px 20px;
@@ -176,7 +188,7 @@
 }
 .album > h5 {
   font-size: 12px;
-  line-height: 16px;
+  line-height: 16px;  
 }
 .album > span {
   font-size: 10px;
@@ -187,6 +199,7 @@
 .tracks {
   padding: 0 20px;
   height: calc(100vh - 611px);
+  overflow: scroll;
 }
 
 .track {
@@ -207,6 +220,7 @@
 .tracks__header {
   display: flex;
   justify-content: space-between;
+  padding: 16px;
 }
 
 .tracks__header > div,
@@ -253,4 +267,36 @@
 
 .track > div:nth-child(6) {
   flex-grow: 3;
+}
+.track__singer_mobile,
+.track__image_mobile,
+.player_mobile {
+  display: none;
+}
+.player {
+  background: url(../img/player.png);
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  bottom: 0;
+  height: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.player_play {
+  background: url(../img/Ellipse1.png) center/cover no-repeat,
+    url(../img/Ellipse.png) center/cover no-repeat;
+}
+
+/*.player_photo{
+  height: 100%;
+  width: 110px;
+}
+
+/*.player_position{
+  background: url(../icons/Rectangle1.svg);
+}*/
+/*.player_position{
+ margin: 0 10px;
 }

@@ -1,62 +1,67 @@
 .menu {
-    width: 170px;
-    position: fixed;
-    border-right: 1px solid #EEEEEE;
-    left: 0;
-    background-color: #ffffff;
-    height: 100vh;
+  width: 170px;
+  position: fixed;
+  border-right: 1px solid #eeeeee;
+  left: 0;
+  background-color: #ffffff;
+  height: 100vh;
 }
 
 .menu__wrapper {
-    padding: 24px;
+  padding: 24px;
 }
 
 .menu__navigation {
-    font-size: 12px;
-    color: #0F1E36;
+  font-size: 12px;
+  color: #0f1e36;
+  line-height: 16px;
+  mix-blend-mode: normal;
 }
 
 .logo {
-    font-size: 12px;
-    color: #0F1E36;
-    margin: 0 0 44px 0;
+  font-size: 12px;
+  color: #0f1e36;
+  margin: 0 0 44px 0;
 }
-
+.discover {
+  color: #3e2ad1;
+}
 .menu__navigation ul li span {
-    margin: 0 0 0 15px;
+  margin: 0 0 0 15px;
 }
 
 .menu__navigation ul li {
-    margin: 0 0 25px;
+  margin: 0 0 25px;
 }
 
 .menu__navigation h3 {
-    color: #0F1E36;
-    font-weight: 600;
-    margin: 0 0 17px 0;
+  color: #0f1e36;
+  font-weight: 600;
+  margin: 0 0 17px 0;
 }
 
 .menu__singer {
-    padding: 24px 10px 24px 24px;
-    background-color: #F51E38;
-    position: absolute;
-    width: 100%;
-    box-sizing: border-box;
-    bottom: 0;
+  padding: 10px 10px 10px 24px;
+  background-color: #f51e38;
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
+  bottom: 0;
 }
 
 .menu__singer_track {
-    display: inline-block;
-    width: 80px;
-    vertical-align: top;
-    padding: 7px 0 0 5px;
+  display: inline-block;
+  width: 80px;
+  vertical-align: top;
+  padding: 7px 0 0 5px;
 }
 
-.menu__singer_name, .menu__singer_track-name {
-    font-size: 10px;
-    color: #fff;
+.menu__singer_name,
+.menu__singer_track-name {
+  font-size: 10px;
+  color: #fff;
 }
 
 .menu__singer_track-name {
-    color: #F69DA8;
+  color: #f69da8;
 }
