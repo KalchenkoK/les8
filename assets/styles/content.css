@@ -1,4 +1,4 @@
-@media (min-width: 1014px) and (max-width: 2000px) {
+@media (min-width: 1014px) and (max-width: 2000px), (min-width: 320px) and (max-width: 414px) {
   .content {
     margin: 0 0 0 170px;
   }
